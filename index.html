@@ -27,7 +27,7 @@
 	<input type="text" class="text">
 
 	<script>
-		let socket = new WebSocket("ws://salty-bayou-65236.herokuapp.com/");
+		let socket = new WebSocket("wss://salty-bayou-65236.herokuapp.com/");
 		//let socket = new WebSocket("ws://localhost:3000");
 		socket.onerror = function(error) {
             alert(`[error] ${error.message}`);
