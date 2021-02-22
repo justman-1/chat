@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.4.3"
+  },
+  "name": "sd",
+  "version": "1.0.0",
+  "main": "js.js",
+  "scripts": {
+    "start": "node js.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
